@@ -82,7 +82,13 @@ export default function Scene2Blessing({ isActive }: SceneProps) {
             transition={{ duration: 0.8, delay: 0.5, ease: 'easeOut' }}
             className="mb-8"
           >
-            <div className="text-6xl mb-4">🤍</div>
+            <div className="mb-4 flex justify-center">
+              <img 
+                src="/images/illustrations/hand-drawn-one-line-art-illustration copy.png" 
+                alt="Decorative flower illustration"
+                className="w-38 h-38 object-contain"
+              />
+            </div>
             <div className="w-24 h-px bg-dusty-blue mx-auto mb-4" />
           </motion.div>
 
