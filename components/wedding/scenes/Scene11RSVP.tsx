@@ -47,9 +47,6 @@ export default function Scene11RSVP({ onNext, onPrev, isActive }: SceneProps) {
               exit={{ opacity: 0, scale: 0.9 }}
               transition={{ duration: 0.5 }}
               className="max-w-lg w-full"
-              onClick={(e) => e.stopPropagation()}
-              onTouchStart={(e) => e.stopPropagation()}
-              onTouchEnd={(e) => e.stopPropagation()}
             >
               <div 
                 className="bg-white/95 backdrop-blur-sm rounded-3xl p-8 shadow-2xl border border-purple-200"
