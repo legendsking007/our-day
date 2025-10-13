@@ -117,22 +117,22 @@ export default function Scene1Envelope({ onNext }: SceneProps) {
               transition={{ duration: 0.8, delay: 0.5 }}
               className="text-white"
             >
-              <p className="text-lg mb-4 font-serif">Tap to open the invitation</p>
-              <p className="text-sm mb-6 font-serif opacity-90">You are invited to celebrate the union of</p>
+              <p className="typography-body mb-4">Tap to open the invitation</p>
+              <p className="typography-caption mb-6 opacity-90">You are invited to celebrate the union of</p>
               
               <div className="space-y-2">
-                <h1 className="text-4xl font-script text-white mb-2">
+                <h1 className="typography-romantic text-4xl text-white mb-2">
                   Koketso Morapedi
                 </h1>
-                <div className="text-2xl font-script text-white/80 mb-2">&</div>
-                <h1 className="text-4xl font-script text-white mb-6">
+                <div className="typography-romantic text-2xl text-white/80 mb-2">&</div>
+                <h1 className="typography-romantic text-4xl text-white mb-6">
                   Neo Letsholathebe
                 </h1>
               </div>
 
-              <div className="space-y-1 font-serif">
-                <p className="text-xl font-medium">06 December 2025</p>
-                <p className="text-lg opacity-90">Letsholathebe, Botswana</p>
+              <div className="space-y-1">
+                <p className="typography-formal text-xl font-medium">06 December 2025</p>
+                <p className="typography-formal opacity-90">Letsholathebe, Botswana</p>
               </div>
             </motion.div>
           </motion.div>
@@ -157,8 +157,8 @@ export default function Scene1Envelope({ onNext }: SceneProps) {
               animate={{ y: 0, opacity: 1 }}
               transition={{ duration: 0.8, delay: 0.5 }}
             >
-              <h2 className="text-3xl font-script mb-4">Welcome to our story...</h2>
-              <p className="text-lg font-serif opacity-90">Let love unfold</p>
+              <h2 className="typography-heading text-3xl mb-4">Welcome to our story...</h2>
+              <p className="typography-body opacity-90">Let love unfold</p>
             </motion.div>
           </motion.div>
         )}
