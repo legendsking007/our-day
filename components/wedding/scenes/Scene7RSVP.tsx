@@ -5,7 +5,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { useForm } from 'react-hook-form';
 import { zodResolver } from '@hookform/resolvers/zod';
 import { z } from 'zod';
-import emailjs from '@emailjs/browser';
+// import emailjs from '@emailjs/browser';
 import { Heart, Send, CheckCircle, AlertCircle } from 'lucide-react';
 
 interface SceneProps {
@@ -49,18 +49,18 @@ export default function Scene7RSVP({ isActive }: SceneProps) {
     try {
       // Initialize EmailJS with your public key
       // You'll need to set up EmailJS service and get these IDs
-      const serviceId = 'YOUR_SERVICE_ID'; // Replace with your EmailJS service ID
-      const templateId = 'YOUR_TEMPLATE_ID'; // Replace with your EmailJS template ID
-      const publicKey = 'YOUR_PUBLIC_KEY'; // Replace with your EmailJS public key
+      // const serviceId = 'YOUR_SERVICE_ID'; // Replace with your EmailJS service ID
+      // const templateId = 'YOUR_TEMPLATE_ID'; // Replace with your EmailJS template ID
+      // const publicKey = 'YOUR_PUBLIC_KEY'; // Replace with your EmailJS public key
 
-      const templateParams = {
-        to_name: 'Koketso & Neo',
-        from_name: data.name,
-        guest_count: data.guests,
-        attendance: data.attendance === 'yes' ? 'Will attend' : 'Cannot attend',
-        message: data.message || 'No additional message',
-        reply_to: 'noreply@wedding.com',
-      };
+      // const templateParams = {
+      //   to_name: 'Koketso & Neo',
+      //   from_name: data.name,
+      //   guest_count: data.guests,
+      //   attendance: data.attendance === 'yes' ? 'Will attend' : 'Cannot attend',
+      //   message: data.message || 'No additional message',
+      //   reply_to: 'noreply@wedding.com',
+      // };
 
       // For demo purposes, we'll simulate the email sending
       // In production, uncomment the line below and set up EmailJS
@@ -101,7 +101,7 @@ export default function Scene7RSVP({ isActive }: SceneProps) {
               Thank you for your RSVP
             </p>
             <p className="text-sm font-serif text-gray-600">
-              We can't wait to celebrate with you
+              We can&apos;t wait to celebrate with you
             </p>
           </motion.div>
 

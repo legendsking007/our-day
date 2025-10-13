@@ -9,7 +9,7 @@ interface SceneProps {
   isActive: boolean;
 }
 
-export default function Scene1Envelope({ onNext, isActive }: SceneProps) {
+export default function Scene1Envelope({ onNext }: SceneProps) {
   const [isOpened, setIsOpened] = useState(false);
 
   const handleEnvelopeClick = () => {
