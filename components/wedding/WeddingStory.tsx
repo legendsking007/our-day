@@ -1,10 +1,10 @@
 'use client';
 
-import { useState, useEffect, useRef } from 'react';
+import { useState, useEffect, useRef, useCallback } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { useSwipeable } from 'react-swipeable';
 import { Volume2, VolumeX, RotateCcw } from 'lucide-react';
-import useSound from 'use-sound';
+// import useSound from 'use-sound';
 
 // Import scene components
 import Scene1Envelope from './scenes/Scene1Envelope';
@@ -53,7 +53,14 @@ export default function WeddingStory({ onComplete }: WeddingStoryProps) {
   // Temporary placeholder functions until audio is added
   const play = () => {};
   const pause = () => {};
-  const sound = null;
+
+  const nextScene = useCallback(() => {
+    if (currentScene < scenes.length - 1) {
+      setCurrentScene(prev => prev + 1);
+    } else if (onComplete) {
+      onComplete();
+    }
+  }, [currentScene, onComplete]);
 
   // Auto-advance timer
   useEffect(() => {
@@ -64,7 +71,7 @@ export default function WeddingStory({ onComplete }: WeddingStoryProps) {
     }, 5000); // 5 seconds per scene
 
     return () => clearTimeout(timer);
-  }, [currentScene, isPlaying, isPaused]);
+  }, [currentScene, isPlaying, isPaused, nextScene]);
 
   // Progress bar animation
   useEffect(() => {
@@ -106,13 +113,6 @@ export default function WeddingStory({ onComplete }: WeddingStoryProps) {
     };
   }, [isMuted, isPlaying]);
 
-  const nextScene = () => {
-    if (currentScene < scenes.length - 1) {
-      setCurrentScene(prev => prev + 1);
-    } else if (onComplete) {
-      onComplete();
-    }
-  };
 
   const prevScene = () => {
     if (currentScene > 0) {
