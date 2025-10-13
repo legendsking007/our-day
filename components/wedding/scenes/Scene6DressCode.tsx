@@ -33,9 +33,9 @@ export default function Scene6DressCode({ isActive }: SceneProps) {
   ];
 
   return (
-    <div className="relative w-full h-full bg-gradient-to-b from-white to-beige overflow-hidden">
+    <div className="relative w-full h-full bg-gradient-to-b from-white to-beige">
       {/* Watercolor border effect (from Scene2) */}
-      <div className="absolute inset-0">
+      <div className="absolute inset-0 pointer-events-none">
         <div className="absolute top-0 left-0 w-full h-20 bg-gradient-to-b from-dusty-blue/10 to-transparent" />
         <div className="absolute bottom-0 left-0 w-full h-20 bg-gradient-to-t from-dusty-blue/10 to-transparent" />
         <div className="absolute top-0 left-0 w-20 h-full bg-gradient-to-r from-dusty-blue/10 to-transparent" />
@@ -43,7 +43,8 @@ export default function Scene6DressCode({ isActive }: SceneProps) {
       </div>
 
       {/* Main content */}
-      <div className="flex flex-col items-center justify-center h-full px-8 text-center relative z-10">
+      <div className="relative z-10 h-full overflow-y-auto">
+        <div className="flex flex-col items-center justify-start min-h-full px-8 py-8 text-center">
         <motion.div
           initial={{ opacity: 0, y: 50 }}
           animate={{ opacity: 1, y: 0 }}
@@ -98,11 +99,7 @@ export default function Scene6DressCode({ isActive }: SceneProps) {
             </div>
             
             <div className="w-16 h-px bg-dusty-blue mx-auto mb-6" />
-            
-            <h4 className="typography-subheading text-gray-800 mb-4">
-              Dress Code
-            </h4>
-
+        
           </motion.div>
 
 
@@ -115,14 +112,22 @@ export default function Scene6DressCode({ isActive }: SceneProps) {
           >
             {/* Matsela Header */}
             <div className="text-center mb-8">
-              <motion.h4 
+              <motion.h3
                 initial={{ opacity: 0, scale: 0.9 }}
                 animate={{ opacity: 1, scale: 1 }}
                 transition={{ duration: 0.6, delay: 1.0 }}
-                className="typography-heading text-2xl text-dusty-blue mb-3"
+                className="typography-subheading text-gray-800 mb-2"
+              >
+             Dress Code
+              </motion.h3>
+              <motion.p 
+                initial={{ opacity: 0, scale: 0.9 }}
+                animate={{ opacity: 1, scale: 1 }}
+                transition={{ duration: 0.6, delay: 1.0 }}
+                className="typography-body text-dusty-blue mb-2"
               >
                 Matsela
-              </motion.h4>
+              </motion.p>
               <motion.div
                 initial={{ width: 0 }}
                 animate={{ width: '4rem' }}
@@ -227,6 +232,7 @@ export default function Scene6DressCode({ isActive }: SceneProps) {
             ))}
           </div>
         )}
+        </div>
       </div>
     </div>
   );
