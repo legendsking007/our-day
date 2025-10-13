@@ -1,9 +1,10 @@
 [build]
   publish = "out"
-  command = "pnpm build"
+  command = "npm run build"
 
 [build.environment]
   NODE_VERSION = "18"
+  CI = "false"
 
 [[redirects]]
   from = "/*"
@@ -11,13 +12,13 @@
   status = 200
 
 [context.production]
-  command = "pnpm build"
+  command = "npm run build"
 
 [context.deploy-preview]
-  command = "pnpm build"
+  command = "npm run build"
 
 [context.branch-deploy]
-  command = "pnpm build"
+  command = "npm run build"
 
 # Headers for better performance and security
 [[headers]]
