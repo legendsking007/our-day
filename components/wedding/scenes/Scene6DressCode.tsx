@@ -79,8 +79,8 @@ export default function Scene6DressCode({ isActive }: SceneProps) {
             className="mb-8"
           >
             <h3 className="typography-subheading text-gray-800 mb-2">Wedding Theme</h3>
-            <p className="typography-body text-dusty-blue mb-2">Dusty Blue & White</p>
-            <p className="typography-caption text-gray-600 italic mb-6">Timeless Grace</p>
+            <p className="typography-body text-dusty-blue mb-2">NO DRESS CODE</p>
+            <p className="typography-caption text-gray-600 italic mb-6">FEEL FREE TO BE YOURSELF</p>
             
             {/* Theme color swatches */}
             <div className="flex justify-center space-x-4 mb-6">
@@ -126,7 +126,7 @@ export default function Scene6DressCode({ isActive }: SceneProps) {
                 transition={{ duration: 0.6, delay: 1.0 }}
                 className="typography-body text-dusty-blue mb-2"
               >
-                Matsela
+                BE YOURSELF
               </motion.p>
               <motion.div
                 initial={{ width: 0 }}
@@ -140,7 +140,7 @@ export default function Scene6DressCode({ isActive }: SceneProps) {
                 transition={{ duration: 0.6, delay: 1.2 }}
                 className="typography-body text-gray-600 text-sm italic"
               >
-                Traditional fabrics for our families
+                ANYTHING THAT SUITS YOU
               </motion.p>
             </div>
             
@@ -159,11 +159,11 @@ export default function Scene6DressCode({ isActive }: SceneProps) {
                   className="w-64 h-40 object-cover rounded-xl shadow-lg mb-4 mx-auto"
                 />
                 <h5 className="typography-formal text-lg font-semibold text-dusty-blue mb-2">
-                  Bride's Family & Friends
+                  BE A PANDA IF THAT SUITS YOU
                 </h5>
                 <div className="w-12 h-px bg-dusty-blue mx-auto mb-2" />
                 <p className="typography-caption text-dusty-blue text-sm">
-                  For the bride's side
+                  For the Agriculture side
                 </p>
               </motion.div>
 
@@ -180,11 +180,11 @@ export default function Scene6DressCode({ isActive }: SceneProps) {
                   className="w-64 h-40 object-cover rounded-xl shadow-lg mb-4 mx-auto"
                 />
                 <h5 className="typography-formal text-lg font-semibold text-dusty-blue mb-2">
-                  Groom's Family & Friends
+                  BE SCIENCE KI TARAF SE PERSON
                 </h5>
                 <div className="w-12 h-px bg-dusty-blue mx-auto mb-2" />
                 <p className="typography-caption text-dusty-blue text-sm">
-                  For the groom's side
+                  BUT DON'T FORGET TO BRING YOUR MODEL
                 </p>
               </motion.div>
             </div>
