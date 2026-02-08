@@ -63,10 +63,10 @@ export default function Scene3DateTheme({ isActive }: SceneProps) {
   const generateCalendarLink = (type: 'google' | 'outlook' | 'ics') => {
     const eventDetails = {
       title: 'Sparsh & Charu Wedding',
-      startDate: '20260329T050000Z', // December 6, 2025, 5:00 AM UTC
-      endDate: '20260330T170000Z',   // December 6, 2025, 5:00 PM UTC
+      startDate: '20260329T110000+05:30', // December 6, 2025, 5:00 AM UTC
+      endDate: '20260330T190000+05:30',   // December 6, 2025, 5:00 PM UTC
       location: 'Letsholathebe, North-east District, Botswana',
-      description: 'Join us for our special day filled with love, tradition, and celebration. Timeline: 5:00 AM - PATLO/MAGADI,11:00 AM - FERE, 12:00 PM - LUNCH, 30th March 7:00 PM - RECEPTION'
+      description: 'Join us for our special day filled with love, tradition, and celebration. FERE, 12:00 PM - LUNCH, 30th March 7:00 PM - RECEPTION'
     };
 
     switch (type) {
