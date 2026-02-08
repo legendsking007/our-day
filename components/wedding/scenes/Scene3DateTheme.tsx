@@ -301,12 +301,12 @@ END:VCALENDAR`;
             
             <div className="space-y-3">
               <div className="text-center">
-                <p className="text-white/90 text-sm font-medium mb-1">RSVP</p>
+                <p className="text-white/90 text-sm font-medium mb-1">Contact</p>
                 <a 
-                  href="tel:+26775950123" 
+                  href="tel:+91999086602" 
                   className="text-white hover:text-white/80 transition-colors duration-200 font-medium"
                 >
-                  Kaone +267 75 950 123
+                  SPARSH +91 7065426160
                 </a>
               </div>
               
@@ -315,10 +315,10 @@ END:VCALENDAR`;
               <div className="text-center">
                 <p className="text-white/90 text-sm font-medium mb-1">Contact</p>
                 <a 
-                  href="tel:+26775268992" 
+                  href="tel:+91999086602" 
                   className="text-white hover:text-white/80 transition-colors duration-200 font-medium"
                 >
-                  Seelo +267 75 268 992
+                  KSHITIZ +91 999086602
                 </a>
               </div>
             </div>
