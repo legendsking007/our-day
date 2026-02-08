@@ -159,10 +159,10 @@ END:VCALENDAR`;
                   <MapPin className="w-5 h-5 text-white mr-2" />
                 </div>
                 <p className="typography-formal text-lg font-medium text-white">
-                  Letsholathebe
+                  NEW DELHI
                 </p>
                 <p className="text-sm text-white/80 font-medium">
-                  North-east District, Botswana
+                  INDIA
                 </p>
               </div>
             </div>
