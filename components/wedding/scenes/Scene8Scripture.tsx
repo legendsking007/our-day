@@ -54,7 +54,7 @@ export default function Scene8Scripture({ isActive }: SceneProps) {
               transition={{ duration: 1, delay: 0.7 }}
             >
               <p className="text-2xl font-serif text-white leading-relaxed italic">
-                So then, they are no longer two but one flesh. Therefore what God has joined together, let not man separate.
+                Where there is love and trust, there is divine union.
               </p>
             </motion.div>
 
@@ -77,7 +77,7 @@ export default function Scene8Scripture({ isActive }: SceneProps) {
             >
               <div className="w-24 h-px bg-white/50 mx-auto mb-4" />
               <p className="text-xl font-serif font-medium text-white">
-                Matthew 19:6 NKJV
+                Bhagavad Gita 4.11
               </p>
             </motion.div>
           </motion.div>
