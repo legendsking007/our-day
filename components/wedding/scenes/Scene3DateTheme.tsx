@@ -49,10 +49,10 @@ const scheduleItems: ScheduleItem[] = [
   },
   {
     time: '5:00 PM',
-    title: 'KGOROSO',
+    title: 'RECEPTION',
     caption: 'Evening reflection and family fellowship',
-    location: 'Letsholathebe Community Hall, North-east District',
-    locationLink: 'https://maps.google.com/?q=Letsholathebe+Community+Hall,North-east+District,Botswana',
+    location: 'Grand Pearl Banquet Hall, Bindapur, Uttam Nagar',
+    locationLink: 'https://maps.app.goo.gl/aBKLKfWNaARdAcMB9',
     icon: <Moon size={20} />,
     color: 'text-purple-500',
   },
