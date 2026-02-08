@@ -62,11 +62,11 @@ export default function Scene3DateTheme({ isActive }: SceneProps) {
   // Save the date functionality
   const generateCalendarLink = (type: 'google' | 'outlook' | 'ics') => {
     const eventDetails = {
-      title: 'Koketso Morapedi & Neo Letsholathebe Wedding',
+      title: 'Sparsh & Charu Wedding',
       startDate: '20260329T050000Z', // December 6, 2025, 5:00 AM UTC
       endDate: '20260330T170000Z',   // December 6, 2025, 5:00 PM UTC
       location: 'Letsholathebe, North-east District, Botswana',
-      description: 'Join us for our special day filled with love, tradition, and celebration. Timeline: 5:00 AM - PATLO/MAGADI, 9:00 AM - Church Service, 11:00 AM - Reception, 5:00 PM - KGOROSO'
+      description: 'Join us for our special day filled with love, tradition, and celebration. Timeline: 5:00 AM - PATLO/MAGADI,11:00 AM - FERE, 12:00 PM - LUNCH, 30th March 7:00 PM - RECEPTION'
     };
 
     switch (type) {
