@@ -63,8 +63,8 @@ export default function Scene3DateTheme({ isActive }: SceneProps) {
   const generateCalendarLink = (type: 'google' | 'outlook' | 'ics') => {
     const eventDetails = {
       title: 'Koketso Morapedi & Neo Letsholathebe Wedding',
-      startDate: '20251206T050000Z', // December 6, 2025, 5:00 AM UTC
-      endDate: '20251206T170000Z',   // December 6, 2025, 5:00 PM UTC
+      startDate: '20260329T050000Z', // December 6, 2025, 5:00 AM UTC
+      endDate: '20260330T170000Z',   // December 6, 2025, 5:00 PM UTC
       location: 'Letsholathebe, North-east District, Botswana',
       description: 'Join us for our special day filled with love, tradition, and celebration. Timeline: 5:00 AM - PATLO/MAGADI, 9:00 AM - Church Service, 11:00 AM - Reception, 5:00 PM - KGOROSO'
     };
