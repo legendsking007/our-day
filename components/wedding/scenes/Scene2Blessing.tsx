@@ -125,7 +125,7 @@ export default function Scene2Blessing({ isActive }: SceneProps) {
               className="text-center"
             >
               <div className="inline-flex items-center space-x-3 text-3xl font-script text-dusty-blue">
-                <span>K</span>
+                <span>S</span>
                 <motion.span
                   animate={{ scale: [1, 1.2, 1] }}
                   transition={{ duration: 2, repeat: Infinity, ease: 'easeInOut' }}
@@ -133,7 +133,7 @@ export default function Scene2Blessing({ isActive }: SceneProps) {
                 >
                   💙
                 </motion.span>
-                <span>N</span>
+                <span>C</span>
               </div>
             </motion.div>
 
