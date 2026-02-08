@@ -140,10 +140,10 @@ END:VCALENDAR`;
           
           {/* Date Card */}
           <div className="bg-white/90 backdrop-blur-sm rounded-2xl p-6 shadow-lg border border-dusty-blue/20 mb-6">
-            <h1 className="typography-hero text-dusty-blue mb-1">Saturday</h1>
-            <div className="text-5xl font-decorative font-bold text-gray-800 mb-1">06</div>
-            <h2 className="typography-subheading text-gray-700 mb-1">December</h2>
-            <div className="typography-formal text-2xl font-medium text-dusty-blue">2025</div>
+            <h1 className="typography-hero text-dusty-blue mb-1">Sunday</h1>
+            <div className="text-5xl font-decorative font-bold text-gray-800 mb-1">29</div>
+            <h2 className="typography-subheading text-gray-700 mb-1">March</h2>
+            <div className="typography-formal text-2xl font-medium text-dusty-blue">2026</div>
           </div>
 
           {/* Location Display */}
