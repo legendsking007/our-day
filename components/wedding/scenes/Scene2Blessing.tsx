@@ -24,7 +24,7 @@ export default function Scene2Blessing({ isActive }: SceneProps) {
 
   // Countdown timer effect
   useEffect(() => {
-    const weddingDate = new Date('2025-12-06T00:00:00').getTime();
+    const weddingDate = new Date('2026-03-29T00:00:00').getTime();
     
     const updateTimer = () => {
       const now = new Date().getTime();
