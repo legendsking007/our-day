@@ -15,7 +15,7 @@ export default function Scene8Scripture({ isActive }: SceneProps) {
       <div 
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
         style={{
-          backgroundImage: "url('/images/Wedding Pose.JPG')"
+          backgroundImage: "url('/images/After Proposal Shoot1.jpg')"
         }}
       />
       
