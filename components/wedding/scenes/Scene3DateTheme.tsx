@@ -257,7 +257,7 @@ END:VCALENDAR`;
                       </h4>
                       
                       {/* Location Pin for Church Service and Reception */}
-                      {(item.title === 'CHURCH SERVICE' || item.title === 'RECEPTION') && (
+                      {(item.title === 'FERE' || item.title === 'RECEPTION') && (
                         <button
                           onClick={() => window.open(item.locationLink, '_blank')}
                           className="ml-3 p-1.5 bg-white/20 hover:bg-white/30 backdrop-blur-sm border border-white/30 rounded-full transition-all duration-200 hover:scale-110 group"
