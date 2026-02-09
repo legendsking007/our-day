@@ -60,7 +60,7 @@ export default function Scene6DressCode({ isActive }: SceneProps) {
           >
             <div className="mb-4 flex justify-center">
               <img 
-                src="/images/illustrations/Wedding.png" 
+                src="/images/illustrations/Gurudwara.png" 
                 alt="Decorative flower illustration"
                 className="w-42 h-42 object-contain"
               />
