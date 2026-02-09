@@ -132,7 +132,7 @@ export default function Scene1Envelope({ onNext }: SceneProps) {
                   
                   <div className="text-center space-y-2">
                     <h2 className="typography-romantic text-4xl text-dusty-blue">
-                      sparsh & charu
+                      Sparsh & Charu
                     </h2>
                     <p className="typography-formal text-lg text-dusty-blue/70">
                       29 MARCH 2026
