@@ -7,7 +7,7 @@ export default function Home() {
       <ClientOnly fallback={
         <div className="w-full h-screen bg-gradient-to-br from-dusty-blue to-blue-300 flex items-center justify-center">
           <div className="text-white text-center">
-            <h1 className="text-4xl font-script mb-4">Koketso 💙 Neo</h1>
+            <h1 className="text-4xl font-script mb-4">Sparsh 💙 Charu</h1>
             <p className="text-lg font-body">Loading our story...</p>
           </div>
         </div>
