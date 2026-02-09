@@ -48,7 +48,7 @@ const scheduleItems: ScheduleItem[] = [
     color: 'text-green-500',
   },
   {
-    time: '7:00 PM',
+    time: '30th March 7:00 PM',
     title: 'RECEPTION',
     caption: 'Evening reflection and family fellowship',
     location: 'Grand Pearl Banquet Hall, Bindapur, Uttam Nagar',
