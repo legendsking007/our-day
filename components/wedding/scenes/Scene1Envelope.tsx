@@ -50,7 +50,7 @@ export default function Scene1Envelope({ onNext }: SceneProps) {
       className="relative w-full h-full overflow-hidden"
       style={{
         // backgroundImage: "url('/images/Proposal Kiss.JPG')",
-        backgroundImage: "url('/images/After Proposal Shoot.JPG')",
+        backgroundImage: "url('/images/After Proposal Shoot1.JPG')",
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         backgroundRepeat: 'no-repeat'
