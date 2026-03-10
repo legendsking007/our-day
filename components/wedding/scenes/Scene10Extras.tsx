@@ -21,20 +21,20 @@ interface PhotoItem {
 export default function Scene10Extras({ isActive }: SceneProps) {
   // Static engagement photos
   const photos: PhotoItem[] = [
-    { id: '1', src: '/images/Pic1.jpg', alt: 'After proposal celebration', caption: 'Celebrating our engagement...', size: 'large' },
-    { id: '2', src: '/images/Pic2.jpg', alt: 'Hilton Gardens romantic date', caption: 'A perfect evening together...', size: 'medium' },
-    { id: '3', src: '/images/Pic3.jpg', alt: 'Party date night', caption: 'Dancing through life...', size: 'small' },
-    { id: '4', src: '/images/Pic4.jpg', alt: 'Koketso and Neo proposal moment 1', caption: 'The moment we knew...', size: 'medium' },
-    { id: '5', src: '/images/Pic5.jpg', alt: 'Koketso and Neo proposal moment 2', caption: 'Love in every glance...', size: 'large' },
-    { id: '6', src: '/images/Pic6.jpg', alt: 'Koketso and Neo proposal moment 3', caption: 'Building our forever...', size: 'small' },
-    { id: '7', src: '/images/Pic7.jpg', alt: 'Koketso and Neo proposal moment 4', caption: 'Our hearts united...', size: 'medium' },
-    { id: '8', src: '/images/Pic8.jpg', alt: 'The proposal kiss', caption: 'Sealed with a kiss...', size: 'large' },
-    { id: '9', src: '/images/Pic9.jpg', alt: 'Adventure quad bike date', caption: 'Adventures together...', size: 'small' },
-    { id: '10', src: '/images/Pic10', alt: 'Swakopmund beach memories', caption: 'Beach walks and dreams...', size: 'medium' },
-    { id: '11', src: '/images/Pic11', alt: 'Swakopmund trip adventure', caption: 'Exploring new places...', size: 'large' },
-    { id: '12', src: '/images/Pic12', alt: 'Table52 dinner date', caption: 'Fine dining and romance...', size: 'small' },
-    { id: '13', src: '/images/Pic13.jpg', alt: 'Table52 romantic evening', caption: 'Candlelit conversations...', size: 'medium' },
-    { id: '14', src: '/images/Wedding Pose.JPG', alt: 'Wedding pose preview', caption: 'Practice makes perfect...', size: 'large' }
+    { id: '1', src: '/images/Pic1.jpg', alt: 'w', caption: 'Celebrating our engagement...', size: 'large' },
+    { id: '2', src: '/images/Pic2.jpg', alt: 'w', caption: 'A perfect evening together...', size: 'medium' },
+    { id: '3', src: '/images/Pic3.jpg', alt: 'w', caption: 'Dancing through life...', size: 'small' },
+    { id: '4', src: '/images/Pic4.jpg', alt: 'w', caption: 'The moment we knew...', size: 'medium' },
+    { id: '5', src: '/images/Pic5.jpg', alt: 'w', caption: 'Love in every glance...', size: 'large' },
+    { id: '6', src: '/images/Pic6.jpg', alt: 'w', caption: 'Building our forever...', size: 'small' },
+    { id: '7', src: '/images/Pic7.jpg', alt: 'w', caption: 'Our hearts united...', size: 'medium' },
+    { id: '8', src: '/images/Pic8.jpg', alt: 'w', caption: 'Sealed with a kiss...', size: 'large' },
+    { id: '9', src: '/images/Pic9.jpg', alt: 'w', caption: 'Adventures together...', size: 'small' },
+    { id: '10', src: '/images/Pic10.jpg', alt: 'w', caption: 'Beach walks and dreams...', size: 'medium' },
+    { id: '11', src: '/images/Pic11.jpg', alt: 'w', caption: 'Exploring new places...', size: 'large' },
+    { id: '12', src: '/images/Pic12.jpg', alt: 'w', caption: 'Fine dining and romance...', size: 'small' },
+    { id: '13', src: '/images/Pic13.jpg', alt: 'w', caption: 'Candlelit conversations...', size: 'medium' },
+    { id: '14', src: '/images/Wedding Pose.JPG', alt: 'w', caption: 'Practice makes perfect...', size: 'large' }
   ];
 
   const replayStory = () => {
