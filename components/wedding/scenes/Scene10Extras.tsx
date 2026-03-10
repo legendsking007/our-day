@@ -34,7 +34,7 @@ export default function Scene10Extras({ isActive }: SceneProps) {
     { id: '11', src: '/images/Pic11.jpg', alt: 'w', caption: 'Exploring new places...', size: 'large' },
     { id: '12', src: '/images/Pic12.jpg', alt: 'w', caption: 'Fine dining and romance...', size: 'small' },
     { id: '13', src: '/images/Pic13.jpg', alt: 'w', caption: 'Candlelit conversations...', size: 'medium' },
-    { id: '14', src: '/images/Wedding Pose.JPG', alt: 'w', caption: 'Practice makes perfect...', size: 'large' }
+    { id: '14', src: '/images/After Proposal Shoot1.jpg', alt: 'w', caption: 'Practice makes perfect...', size: 'large' }
   ];
 
   const replayStory = () => {
