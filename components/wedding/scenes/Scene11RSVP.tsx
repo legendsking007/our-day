@@ -50,14 +50,14 @@ export default function Scene11RSVP({ onNext, onPrev, isActive }: SceneProps) {
               </p>
               <div className="bg-dusty-blue/10 rounded-xl p-4 mt-4">
                 <p className="typography-caption text-dusty-blue font-medium">
-                  Please respond by 01 December 2025
+                  29 March 2026
                 </p>
               </div>
             </div>
             
             <div className="rounded-xl overflow-hidden border border-dusty-blue/10">
               <iframe 
-                src="https://docs.google.com/forms/d/e/1FAIpQLScsIlBNUBztjkgNsHn3dhjtuhW_GsH2mXjGCl-QIlJ6b4ulOw/viewform?embedded=true" 
+                src="https://docs.google.com/forms/d/e/1FAIpQLScsIlBNUBztjkgNsHn3dhjtuhW_GsH2mXjGCl-QIlJ6b4ulOw/viewform?embedded=False" 
                 width="100%" 
                 height="967" 
                 frameBorder="0" 
