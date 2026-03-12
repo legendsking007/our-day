@@ -112,7 +112,7 @@ export default function Scene2Blessing({ isActive }: SceneProps) {
               className="border-t border-b border-dusty-blue/30 py-4 my-6"
             >
               <p className="typography-body italic text-dusty-blue">
-                Rea go laletsa lona mo lenyalong la rona.
+                We invite you to our wedding.
               </p>
        
             </motion.div>
