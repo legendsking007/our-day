@@ -14,27 +14,27 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Sparsh 💙 Charu - Wedding Invitation | 29 March 2026",
-  description: "Join us for our special day of love and celebration in Letsholathebe village. Interactive wedding invitation with all the details you need.",
-  keywords: ["wedding", "invitation", "Koketso", "Neo", "Botswana", "Letsholathebe", "December 2025"],
-  authors: [{ name: "Koketso Morapedi" }],
-  metadataBase: new URL('https://koketso-neo-wedding.netlify.app'),
+  description: "Join us for our special day of love and celebration in Delhi. Interactive wedding invitation with all the details you need.",
+  keywords: ["wedding", "invitation", "Sparsh", "Charu", "Delhi", "March 2026"],
+  authors: [{ name: "Sparsh" }],
+  metadataBase: new URL('https://sparshandcharu.netlify.app/'),
   openGraph: {
-    title: "Koketso 💙 Neo - Wedding Invitation",
-    description: "You're invited to celebrate our union on 06 December 2025 in Letsholathebe, Botswana",
+    title: "Sparsh 💙 Charu - Wedding Invitation",
+    description: "You're invited to celebrate our union on 29 March 2026 in Delhi",
     type: "website",
     images: [
       {
         url: "/images/Proposal 2.JPG",
         width: 1200,
         height: 630,
-        alt: "Koketso & Neo Wedding Invitation",
+        alt: "Sparsh & Charu Wedding Invitation",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Koketso 💙 Neo - Wedding Invitation",
-    description: "Join us for our special day - 06 December 2025",
+    title: "Sparsh 💙 Charu - Wedding Invitation",
+    description: "Join us for our special day - 29 March 2026",
   },
 };
 
